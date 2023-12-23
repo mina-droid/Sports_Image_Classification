@@ -31,4 +31,7 @@ Train : contains 1681 images. The label is in the image name. Image format is a 
 Test: 688 images without labels all jpg
 
 ## Report
+Note: training accuracy always between 98%– 100%, in all models our goal was to solve overfitting.
+Trial 1: CNN Model
+At first, we tried to implement the architecture found in LAB 7 in many ways as of changing the hyperparameters (filter size, number of filters, stride size, activation functions) as well as the number of layers (fully connected, convolution, maximum pooling), also adding regularization methods to prevent overfitting (batch normalization, dropout)
 
